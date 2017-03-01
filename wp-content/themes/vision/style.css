@@ -256,6 +256,10 @@ nav .brand-logo {
 }
 
 /*VIDEO*/
+.foto-video{
+  width: 460px;
+  height: 140px;
+}
 
 .bg-video {
   background: url(images/video/fondo.jpg) no-repeat;
