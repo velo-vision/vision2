@@ -390,35 +390,28 @@
       <div class="col l12 m12 s12 nopadding">
           <!-- MENU IMAGENES -->
         <div class="col l6 m12 s12" style="margin-top:5%;">
+        <?php $videos2 = get_field("video", 174);  ?> 
           <nav class="sample-ctrl">
-            <div class="col l8 offset-l2 m6 s6">
-              <a data-ctrl="youtube1" href="#youtube2"><img src=" <?php bloginfo("template_url") ?>/images/video/1.jpg" alt="" width="100%">
-                <p class="text-lorem">lorem ipsum 2017</p>
-              </a>
-            </div>
-            <div class="col l8 offset-l2 m6 s6">
-              <a data-ctrl="youtube" href="#youtube"><img src=" <?php bloginfo("template_url") ?>/images/video/2.jpg" alt="" width="100%">
-                <p class="text-lorem">lorem ipsum 2017</p>
-              </a>
-            </div>
-            <div class="col l8 offset-l2 m6 s6">
-              <a data-ctrl="1" href="#1"><img src=" <?php bloginfo("template_url") ?>/images/video/3.jpg" alt="" width="100%">
-                <p class="text-lorem">lorem ipsum 2017</p>
-              </a>
-            </div>
-            <div class="col l8 offset-l2 m6 s6">
-              <a data-ctrl="youtube3" href="#youtube3"><img src=" <?php bloginfo("template_url") ?>/images/video/4.jpg" alt="" width="100%">
-                <p class="text-lorem">lorem ipsum 2017</p>
-              </a>
-            </div>
+          <?php $count =1; 
+              foreach ($videos2 as $key => $value){ ?>
+                <div class="col l8 offset-l2 m6 s6">               
+                  <a data-ctrl="<?php echo $count ?>" href="#<?php $count ?>">
+                    <img src="https://img.youtube.com/vi/<?php echo $value['url_video'] ?>/default.jpg" alt="" width="100%" class="foto-video">
+                    <p class="text-lorem">lorem ipsum 2017</p>
+                  </a>
+                </div>
+            <?php $count++; 
+                } 
+                echo $count;
+                ?>
           </nav>
         </div>
         <!-- FIN MENU IMAGENES -->
         <!-- VIDEOS IFRAME -->
         <div class="col l6 m12 s12 nopadding">
-          <?php $args = array( 'category' => '32', );
-              $posts_array = get_posts( $args ) ?>
+          <?php $videos2 = get_field("video", 174);  ?> 
             <ul class="scanlines">
+<<<<<<< HEAD
             <?php   $id =0;
             foreach ($posts_array as $key => $value) { ?>
               <li id="<?php echo $id; ?>">
@@ -431,49 +424,25 @@
               </li>
                     <?php
                   } $id++;
+=======
+            <?php $count =1; 
+                foreach ($videos2 as $key => $value){ ?>
+                  <li id="<?php echo $count; ?>">
+                    <iframe id="<?php echo $count; ?>" src= "https://www.youtube.com/embed/<?php echo $value['url_video'] ?>" allowfullscreen></iframe>                  
+                  </li>
+              <?php $count ++;
+                  }                  
+>>>>>>> a56310e5a373bd52fe213e1067a3b573fc82eb5a
               ?>
           </ul>
         </div>
         <!-- FIN VIDEOS IFRAME -->
+        
       </div>
   </div>
 
 </div>
 
-  <!-- <div class="col l12 m12 s12 diagonal-pleca">
-
-    <div class="col l12 m12 s12 text-lorem" style="margin-top:20px;">
-      <figure id="video_player" class="nomargin">
-      <figcaption>
-        <a href="http://thenewcode.com/assets/videos/glacier.mp4" class="currentvid" style="margin-top:60px;">
-          <img src="<?php bloginfo("template_url"); ?>/images/video/1.jpg" alt="Athabasca Glacier">
-          <p class="text-lorem">Lorem ipsum 2017</p>
-        </a>
-        <a href="http://thenewcode.com/assets/videos/lake.mp4">
-          <img src="<?php bloginfo("template_url"); ?>/images/video/2.jpg" alt="Athabasca Lake">
-          <p class="text-lorem">Lorem ipsum 2017</p>
-        </a>
-        <a href="http://thenewcode.com/assets/videos/mountain.mp4">
-          <img src="<?php bloginfo("template_url"); ?>/images/video/3.jpg" alt="Mountain">
-          <p class="text-lorem">Lorem ipsum 2017</p>
-        </a>
-        <a href="http://thenewcode.com/assets/videos/mountain.mp4">
-          <img src="<?php bloginfo("template_url"); ?>/images/video/4.jpg" alt="Mountain">
-          <p class="text-lorem">Lorem ipsum 2017</p>
-        </a>
-      </figcaption>
-      <div id="video_container" style="width:60%;">
-        <img src="<?php bloginfo("template_url"); ?>/images/video/4.jpg" alt="Mountain">
-        <video class="nomargin" controls poster="http://thenewcode.com/assets/videos/glacier.mp4" playsinline>
-          <source src="http://thenewcode.com/assets/videos/glacier.mp4" type="video/mp4">
-          <source src="http://thenewcode.com/assets/videos/glacier.webm" type="video/webm">
-            <p class="text-lorem">Lorem ipsum 2017</p>
-      </video>
-      </div>
-      </figure>
-    </div>
-
-  </div> -->
   <div class="col l12 m12 s12 nopadding margin-10 nomargin">
   </div>
 
