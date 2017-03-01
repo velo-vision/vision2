@@ -419,13 +419,13 @@
           <?php $args = array( 'category' => '32', );
               $posts_array = get_posts( $args ) ?>
             <ul class="scanlines">
-            <?php   $id =0; 
+            <?php   $id =0;
             foreach ($posts_array as $key => $value) { ?>
               <li id="<?php echo $id; ?>">
                  <?php $video = get_post_meta($post->ID, 'video', true);
-                echo $video; 
+                echo $video;
                 echo "<iframe id='".$id."' src=https://www.youtube.com/embed/'".$video."' allowfullscreen></iframe>";
-            //echo "<iframe class='video2' height='554' src='https://www.youtube.com/embed/".$video."' frameborder='0' allowfullscreen></iframe>";    
+            //echo "<iframe class='video2' height='554' src='https://www.youtube.com/embed/".$video."' frameborder='0' allowfullscreen></iframe>";
                     ?>
                 <!-- <iframe id="<?php echo $id; ?>" src="https://www.youtube.com/embed/<?php echo $video; ?>" allowfullscreen></iframe> -->
               </li>

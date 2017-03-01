@@ -20,8 +20,8 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define( 'WPCACHEHOME', 'C:\xampp\htdocs\proyectos\vision2\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
 define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', 'C:\xampp\htdocs\proyectos\vision\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'vision');
 
 /** MySQL database username */
