@@ -385,36 +385,43 @@
     </div>
   </div>
 
+  <div class="col l12 m12 s12 nopadding margin-10 nomargin">
+  </div>
+
+
+
+</div>
+
+<div class="row nopadding nomargin">
   <div class="col l12 m12 s12 diagonal-pleca nopadding">
     <div class="col l12 m12 s12 bg-video nopadding" style="margin-top:20px;">
       <div class="col l12 m12 s12 nopadding">
           <!-- MENU IMAGENES -->
-        <div class="col l6 m12 s12" style="margin-top:5%;">
+        <div class="col l4 m12 s12" style="margin-top:5%;">
         <?php $videos2 = get_field("video", 174);  ?> 
           <nav class="sample-ctrl">
           <?php $count =1; 
               foreach ($videos2 as $key => $value){ ?>
                 <div class="col l8 offset-l2 m6 s6">               
                   <a data-ctrl="<?php echo $count ?>" href="#<?php $count ?>">
-                    <img src="https://img.youtube.com/vi/<?php echo $value['url_video'] ?>/default.jpg" alt="" width="100%" class="foto-video">
-                    <p class="text-lorem">lorem ipsum 2017</p>
+                    <img src="https://img.youtube.com/vi/<?php echo $value['url_video'] ?>/0.jpg" alt="" width="100%" class="foto-video">
+                    <p class="text-lorem"><?php echo $value['comentario'] ?></p>
                   </a>
                 </div>
             <?php $count++; 
-                } 
-                echo $count;
+                }             
                 ?>
           </nav>
         </div>
         <!-- FIN MENU IMAGENES -->
         <!-- VIDEOS IFRAME -->
-        <div class="col l6 m12 s12 nopadding">
+        <div class="col l8 m12 s12 nopadding">
           <?php $videos2 = get_field("video", 174);  ?> 
             <ul class="scanlines">
             <?php $count =1; 
                 foreach ($videos2 as $key => $value){ ?>
                   <li id="<?php echo $count; ?>">
-                    <iframe id="<?php echo $count; ?>" src= "https://www.youtube.com/embed/<?php echo $value['url_video'] ?>" allowfullscreen></iframe>                  
+                    <iframe id="<?php echo $count; ?>" src= "https://www.youtube.com/embed/<?php echo $value['url_video'] ?>" class="video-size" allowfullscreen></iframe>                  
                   </li>
               <?php $count ++;
                   }                  
@@ -427,12 +434,6 @@
   </div>
 
 </div>
-
-  <div class="col l12 m12 s12 nopadding margin-10 nomargin">
-  </div>
-
-
-
 </div>
 
 
