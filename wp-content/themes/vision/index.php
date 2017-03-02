@@ -396,13 +396,12 @@
               foreach ($videos2 as $key => $value){ ?>
                 <div class="col l8 offset-l2 m6 s6">               
                   <a data-ctrl="<?php echo $count ?>" href="#<?php $count ?>">
-                    <img src="https://img.youtube.com/vi/<?php echo $value['url_video'] ?>/default.jpg" alt="" width="100%" class="foto-video">
+                    <img src="<?php echo $value['galeriacvideo'] ?>" alt="" width="100%" class="foto-video">
                     <p class="text-lorem">lorem ipsum 2017</p>
                   </a>
                 </div>
             <?php $count++; 
-                } 
-                echo $count;
+                }
                 ?>
           </nav>
         </div>
@@ -421,8 +420,8 @@
               ?>
           </ul>
         </div>
-        <!-- FIN VIDEOS IFRAME -->
-        
+        <!-- FIN VIDEOS IFRAME -->      
+            
       </div>
   </div>
 
