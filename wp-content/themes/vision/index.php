@@ -5,7 +5,7 @@
 <div class="row marco nomargin">
 
   <div class="col l12 m12 s12 nopadding bg_main_slider">
-    <div class="col l8 m8 s12 nopadding nomargin">
+    <div class="col l8 m8 s12 nopadding nomargin separacion-slider">
       <ul class="carruselPrincipal">
       <?php
         $args = array(
@@ -28,7 +28,7 @@
 
       </ul>
     </div>
-    <div class="col l4 m4 s12 nomargin " style="padding-right:0;">
+    <div class="col l4 m4 s12 nomargin ajuste-imagen">
       <?php
         $args = array(
           'numberposts' => 2,
