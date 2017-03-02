@@ -34,7 +34,6 @@
           'numberposts' => 2,
           'category' => 28
         );
-
         $lanzamientos = get_posts( $args );
 
         foreach ($lanzamientos as $key => $value) {
@@ -394,18 +393,18 @@
 
 <div class="row nopadding nomargin">
   <div class="col l12 m12 s12 diagonal-pleca nopadding">
-    <div class="col l12 m12 s12 bg-video nopadding" style="margin-top:20px;">
+    <div class="col l12 m12 s12 bg-video nopadding " style="margin-top:20px;">
       <div class="col l12 m12 s12 nopadding">
           <!-- MENU IMAGENES -->
-        <div class="col l4 m12 s12" style="margin-top:5%;">
+        <div class="col l3 m12 s12 top5">
         <?php $videos2 = get_field("video", 174);  ?> 
           <nav class="sample-ctrl">
           <?php $count =1; 
               foreach ($videos2 as $key => $value){ ?>
-                <div class="col l8 offset-l2 m6 s6">               
+                <div class="col l8 offset-l2 m3 s3">               
                   <a data-ctrl="<?php echo $count ?>" href="#<?php $count ?>">
                     <img src="https://img.youtube.com/vi/<?php echo $value['url_video'] ?>/0.jpg" alt="" width="100%" class="foto-video">
-                    <p class="text-lorem"><?php echo $value['comentario'] ?></p>
+                    <p class="text-lorem hide-on-small-only"><?php echo $value['comentario'] ?></p>
                   </a>
                 </div>
             <?php $count++; 
@@ -415,7 +414,7 @@
         </div>
         <!-- FIN MENU IMAGENES -->
         <!-- VIDEOS IFRAME -->
-        <div class="col l8 m12 s12 nopadding">
+        <div class="col l7 m10 offset-m1 s12 nopadding">
           <?php $videos2 = get_field("video", 174);  ?> 
             <ul class="scanlines">
             <?php $count =1; 

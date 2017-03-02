@@ -257,10 +257,13 @@ nav .brand-logo {
 
 /*VIDEO*/
 .foto-video{
-  width: 300px;
+  width: 100%;
   height: auto;
 }
 
+.top5{
+margin-top:5%;
+}
 .bg-video {
   background: url(images/video/fondo.jpg) no-repeat;
   background-size: cover;
@@ -272,8 +275,8 @@ nav .brand-logo {
 
 .scanlines iframe {
   width: 100%;
-  height: 64vh;
-  margin-top: 32%;
+  height: 50vh;
+  margin: 20% 0;
 }
 
 .milti-frame iframe {
@@ -2861,6 +2864,13 @@ nav .brand-logo {
 }
 
 @media only screen and (max-width: 600px) and (min-width: 200px){
+/*****video galeria ***/
+.scanlines iframe {
+    width: 100%;
+    height: auto;
+    margin-top: 6%;
+}
+
 
 /*home*/
 .marco {
@@ -3387,7 +3397,29 @@ nav a {
 
 }
 
+/***Est***/
+@media only screen and (max-width: 992px) and (min-width: 600px){
+.scanlines iframe {
+  width: 100%;
+  height: auto;
+  margin: 6% 0;
+}
 
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px){
+.scanlines iframe {
+  width: 100%;
+  height: 42vh;
+  margin: 7% 0;
+}
+.top5 {
+    margin-top: 1%;
+}
+
+}
+
+/****/
 /* Code */
 
 /* GLOBAL */
