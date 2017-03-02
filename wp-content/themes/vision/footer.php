@@ -2,7 +2,7 @@
 <div class="row">
   <footer>
     <div class="col l12 m12 s12 bg-rojo">
-      <div class="col l12 m12 s12 nopadding bottom-40">
+      <div class="col l10 offset-l1 m12 s12 nopadding bottom-40">
         <div class="col l4 offset-l1 m12 s12">
           <div class="col l4 m4 offset-m4 s6 offset-s3">
             <img src="<?php bloginfo("template_url"); ?>/images/logo.png" class="footer-imagen" alt="VISION AUTOMOTRIZ">

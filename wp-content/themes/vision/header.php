@@ -115,7 +115,7 @@
         </ul>
       </div>
     </nav>
-    <div class="row marco nomargin">
+    <div class="row marco cabecera-ulttima">
       <div class="news jnewsbar jnews-dark jnews-top jnews-slideUp">
       	<h2>[Últimas noticias]</h2>
       	<ul>

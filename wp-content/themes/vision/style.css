@@ -9,7 +9,7 @@ Author URI: http://www.velosoft.mx/
 
 * {margin: 0; padding: 0;}
 form {margin: 0; padding: 0;}
-h1 {font-size: 19px; color: #858383;}
+h1 {font-size: 19px; color: #858383; margin-top: 47px; }
 h2 {font-size: 16px; line-height: 20px; color: #00749E;}
 .h2 {font-family: Arial, Helvetica, sans-serif; line-height: 18px; font-size: 12px; color: #312E2E; font-weight: bold;}
 h3 {font-size: 15px; color: #656565;}
@@ -64,7 +64,12 @@ p{
 .clear{
   clear:both;
 }
-
+.minuscula{
+  text-transform: initial !important;
+}
+.minuscula a{
+  text-transform: initial !important;
+}
 /*HOME*/
 .nomargin{
   margin:0px !important;
@@ -180,6 +185,13 @@ p{
 
 .margin-multi{
  margin-top: 20px;
+}
+.capital{
+  text-transform: capitalize;
+}
+.cabecera-ulttima{
+  padding: 1% 10% 0px 10% !important;
+  margin-bottom: 0px !important;
 }
 /*MENU RESPONSIVE*/
 .ancho-li li{
@@ -1113,7 +1125,7 @@ nav {
 	color: #fff;
 	font-size:18px;
 	text-align: center;
-	margin: 10px 0 0 0;
+	margin: 12px 0 0 0;
 	padding: 0px 0px;
 	text-transform: uppercase;
   -webkit-transform:skew(16deg);
@@ -3973,7 +3985,7 @@ nav {
 }
 .search-container {
     margin-right: 40%;
-    margin-top: 10.4%;
+    margin-top: 8.4%;
 }
 
 

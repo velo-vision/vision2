@@ -49,7 +49,6 @@
             </a>
           <?php
         }
-
       ?>
     </div>
 
@@ -121,7 +120,7 @@
 
                   <div class="col l12 m12 s12 text-dodge">
                     <a href="<?php echo get_permalink($post->ID); ?>">
-                      <p style="margin-top:20px;">
+                      <p style="margin-top:20px;" class="minuscula">
                         <?php echo codeExtracto($post, 40); ?>
                       </p>
                     </a>
@@ -243,8 +242,8 @@
                       <span><?php echo $post->post_title; ?></span>
                     </div>
                   </a>
-                  <p class="descripcionNota">
-                    <a href="<?php echo get_permalink($post->ID); ?>">
+                  <p class="descripcionNota minuscula">
+                    <a href="<?php echo get_permalink($post->ID); ?>" >
                       <?php echo codeExtracto($post); ?>
                     </a>
                     <?php
