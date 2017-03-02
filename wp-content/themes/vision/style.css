@@ -855,6 +855,30 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
   -o-transform:skew(20deg);
 }
 
+.tituloChueco1{
+  background:#cc2128;
+  color: white;
+  display:block;
+  font-size: 20px;
+  font-weight: bold;
+  margin:0 auto;
+	margin-top: -30px;
+  max-width: 80%;
+  padding: 15px;
+  text-align: center;
+  z-index: 1;
+  -webkit-transform:skew(-20deg);
+  -moz-transform:skew(-20deg);
+  -o-transform:skew(-20deg);
+}
+.tituloChueco1 span{
+  display: block;
+  -webkit-transform:skew(20deg);
+  -moz-transform:skew(20deg);
+  -o-transform:skew(20deg);
+  font-size: 13px;
+}
+
 .text-dodge{
 	color: #56585a;
 	text-align: justify;
@@ -1126,6 +1150,20 @@ nav {
 	font-size:18px;
 	text-align: center;
 	margin: 12px 0 0 0;
+	padding: 0px 0px;
+	text-transform: uppercase;
+  -webkit-transform:skew(16deg);
+	-moz-transform:skew(16deg);
+	-o-transform:skew(16deg);
+}
+
+.titulo2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size:16px;
+	text-align: center;
+	margin: 23px 0 0 0;
 	padding: 0px 0px;
 	text-transform: uppercase;
   -webkit-transform:skew(16deg);
@@ -2127,7 +2165,12 @@ input[type=email], textarea.materialize-textarea {
 .descarga {
   font-size: .8em;
 }
-
+/*noticias que te pueden interesar*/
+.titulo2{
+	font-size:16px;
+	margin: 12px 0 0 0;
+}
+/*fin*/
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 992px){
@@ -2148,6 +2191,12 @@ input[type=email], textarea.materialize-textarea {
 }
 
 @media only screen and (max-width: 1100px) and (min-width: 992px){
+/*noticias que te pueden interesar*/
+.titulo2{
+	font-size:16px;
+	margin: 12px 0 0 0;
+}
+/*fin*/
 .manejo {
   font-size: .8em;
   margin: 8px 0 0 0;
@@ -2255,6 +2304,13 @@ input[type=email], textarea.materialize-textarea {
 }
 
 @media only screen and (max-width: 992px) and (min-width: 768px){
+
+  /*noticias que te pueden interesar*/
+  .titulo2{
+  	font-size:16px;
+  	margin: 12px 0 0 0;
+  }
+  /*fin*/
 
 .footer-imagen{
   width:45%;
@@ -2555,6 +2611,11 @@ nav ul a:hover {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 600px){
+  .titulo2 {
+      font-size: 13px;
+      margin: 19px 0 0 0;
+  }
+
 nav a {
   color: #000 !important;
 }
@@ -2876,6 +2937,12 @@ nav .brand-logo {
 }
 
 @media only screen and (max-width: 600px) and (min-width: 200px){
+/*noticias que te pueden interesar*/
+  .titulo2 {
+    font-size: 12px;
+    margin: 19px 0 0 0;
+}
+/*fin*/
   /***est**/
 .separacion-slider{
   margin: 2% 0 !important;

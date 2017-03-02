@@ -108,7 +108,7 @@
                   </a>
 
                   <a href="<?php echo get_permalink($post->ID); ?>">
-                    <div class="tituloChueco">
+                    <div class="tituloChueco1">
                       <span><?php echo $post->post_title; ?></span>
                     </div>
                   </a>

@@ -122,7 +122,7 @@
 
 						<div class="col s12 m12 12 relative margin-80">
 					    <div class=" col l4 m4 s5 paralelo-lanzamiento">
-					      <p class="titulo1">Noticias que te pueden interesar</p>
+					      <p class="titulo2">Noticias que te pueden interesar</p>
 					    </div>
 					  </div>
 					  <div class="col l9 m12 s12 margin-10">
