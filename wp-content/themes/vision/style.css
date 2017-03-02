@@ -197,6 +197,9 @@ p{
 .sinpadding{
 padding: 0px !important;
 }
+.ajuste-imagen{
+  padding: 0px 0px 0px 20px !important;
+}
 /**/
 
 /*MENU RESPONSIVE*/
@@ -2886,8 +2889,8 @@ nav .brand-logo {
 .separacion-slider{
   margin: 2% 0 !important;
 }
-.ajuste-imagen{
-padding: 0px;
+.ajuste-imagen {
+  padding: 5px 10px !important;
 }
 .sinpadding{
   padding: 2px 11px !important;
