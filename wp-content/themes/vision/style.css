@@ -193,6 +193,15 @@ p{
   padding: 1% 10% 0px 10% !important;
   margin-bottom: 0px !important;
 }
+/****/
+.sinpadding{
+padding: 0px !important;
+}
+.ajuste-imagen{
+  padding: 0px 0px 0px 20px !important;
+}
+/**/
+
 /*MENU RESPONSIVE*/
 .ancho-li li{
 	width: 10.9%;
@@ -2880,18 +2889,14 @@ nav .brand-logo {
 .separacion-slider{
   margin: 2% 0 !important;
 }
-.ajuste-imagen{
-padding: 0px;
+.ajuste-imagen {
+  padding: 5px 10px !important;
 }
-.bx-caption span, .caption span {
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    display: block;
-    font-size: 14px !important;
-    padding-top: 0px;
-    text-align: center;
-    line-height: normal;
-    margin-top: 31px;
+.sinpadding{
+  padding: 2px 11px !important;
+}
+.top1{
+  margin-top: 50px !important;
 }
 /****/
 /*****video galeria ***/

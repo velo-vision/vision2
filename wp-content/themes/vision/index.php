@@ -5,7 +5,7 @@
 <div class="row marco nomargin">
 
   <div class="col l12 m12 s12 nopadding bg_main_slider">
-    <div class="col l8 m8 s12 nopadding nomargin separacion-slider">
+    <div class="col l8 m8 s12 sinpadding nomargin separacion-slider">
       <ul class="carruselPrincipal">
       <?php
         $args = array(
@@ -62,8 +62,8 @@
   </script>
 
   <div class="row nomargin">
-    <div class="col s12 m12 l12 relative margin-100">
-      <div class=" col l3 m4 s5 paralelo-gris3">
+    <div class="col s12 m12 l12 relative margin-100 top1">
+      <div class=" col l3 m4 s6 paralelo-gris3">
           <p class="titulo1 right">
             <a href="javascript:void(0);" onclick="codeSlider('prev',lanzamientos, 'lanzamientos');" class="font-white" style="margin-right:50px;" >
               <i class="fa fa-chevron-left font-white" aria-hidden="true" ></i>
@@ -73,7 +73,7 @@
             </a>
           </p>
       </div>
-      <div class=" col l3 m4 s9 paralelo-lanzamiento_main">
+      <div class=" col l3 m4 s8 paralelo-lanzamiento_main">
         <p class="titulo1">LANZAMIENTOS</p>
       </div>
     </div>
