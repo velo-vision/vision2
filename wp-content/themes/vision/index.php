@@ -369,11 +369,9 @@
         <?php
       }
       ?>
-
-
-
+</div>
+<div class="row nopadding nomargin">
   <img src="http://placehold.it/2000x250" style="display:none; margin: 0 auto; width:100%; margin-top:5px;">
-
 
   <div class="col s12 m12 12 relative margin-80" style="display:none;">
     <div class=" col l4 m4 s5 paralelo-lanzamiento">
@@ -384,7 +382,6 @@
       </div>
     </div>
   </div>
-
   <div class="col l12 m12 s12 diagonal-pleca nopadding">
     <div class="col l12 m12 s12 bg-video nopadding" style="margin-top:20px;">
       <div class="col l12 m12 s12 nopadding">
@@ -397,7 +394,7 @@
                 <div class="col l8 offset-l2 m6 s6">               
                   <a data-ctrl="<?php echo $count ?>" href="#<?php $count ?>">
                     <img src="<?php echo $value['galeriacvideo'] ?>" alt="" width="100%" class="foto-video">
-                    <p class="text-lorem">lorem ipsum 2017</p>
+                    <p class="text-lorem"><?php echo $value['comentario'] ?></p>
                   </a>
                 </div>
             <?php $count++; 
@@ -420,20 +417,13 @@
               ?>
           </ul>
         </div>
-        <!-- FIN VIDEOS IFRAME -->      
-            
+        <!-- FIN VIDEOS IFRAME -->    
       </div>
   </div>
-
 </div>
-
   <div class="col l12 m12 s12 nopadding margin-10 nomargin">
   </div>
-
-
-
 </div>
-
 
 
 <?php get_footer(); ?>
