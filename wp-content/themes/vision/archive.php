@@ -10,7 +10,7 @@
     <div class="col s12 m12 12 margin-80 relative">
       <div class=" col l4 m4 s9 ">
         <div class="tituloChueco">
-          <span><?php echo get_the_archive_title(); ?></span>
+          <span class="capital"><?php echo get_the_archive_title(); ?></span>
         </div>
       </div>
     </div>
