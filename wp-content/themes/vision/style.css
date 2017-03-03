@@ -2360,6 +2360,9 @@ input[type=email], textarea.materialize-textarea {
 }
 
 @media only screen and (max-width: 992px) and (min-width: 768px){
+  .cabecera-ulttima {
+    padding: 0 5% !important;
+}
   /*menu*/
   .side-nav a:hover {
      background-color: transparent;
@@ -2698,6 +2701,9 @@ nav ul a:hover {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 600px){
+  .cabecera-ulttima {
+    padding: 0 3% !important;
+}
   /*menu*/
   .side-nav a:hover {
      background-color: transparent;

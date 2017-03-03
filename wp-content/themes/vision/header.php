@@ -104,6 +104,7 @@
           <div class="clear"></div>
         </ul>
         <ul class="side-nav" id="mobile-demo">
+          <li><img src="<?php bloginfo("template_url"); ?>/images/logo1.png" alt="Visión Automotriz" width="100%"></li>
           <li <?php if(is_home()) echo 'class="active"'; ?>><a href="<?php echo site_url(); ?>" class="fondo-menu-img nopadding">INICIO</a></li>
           <li <?php if(is_category("2")) echo 'class="active"'; ?>><a href="<?php echo get_category_link(2); ?>" class="fondo-menu-img nopadding">NOTICIAS</a></li>
           <li <?php if(is_category("29")) echo 'class="active"'; ?>><a href="<?php echo get_category_link(29); ?>" class="fondo-menu-img nopadding" >ENTREVISTAS</a></li>
