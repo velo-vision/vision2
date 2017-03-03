@@ -193,7 +193,7 @@
 
   <div class="row">
     <div class="col s12 m12 12 margin-80 relative">
-      <div class=" col l4 m4 s9 ">
+      <div class=" col l4 m4 s12 ">
         <div class="tituloChueco">
           <span>Noticias</span>
         </div>
@@ -205,7 +205,7 @@
     </div>
   </div>
   <div class="col l12 m12 s12">
-    <div class="col l9">
+    <div class="col l9 notas-padding">
 
 
       <?php
@@ -309,8 +309,8 @@
 
 <div class="row marco nomargin">
   <div class="col s12 m12 12 relative margin-80">
-    <div class=" col l4 m4 s5 paralelo-lanzamiento_main">
-      <p class="titulo1">EVENTOS</p>
+    <div class=" col l4 m4 s12 paralelo-lanzamiento_main event-movi">
+      <p class="titulo1 ">EVENTOS</p>
     </div>
   </div>
   <div class="col l9 m12 s12 margin-10">

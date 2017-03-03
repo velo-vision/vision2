@@ -2797,7 +2797,7 @@ nav .brand-logo {
 }
 
 .recibe {
-  font-size: .9em;
+  font-size: 1.9em;
 }
 
 .posicion {
@@ -3006,6 +3006,13 @@ nav .brand-logo {
 
 @media only screen and (max-width: 600px) and (min-width: 200px){
 /*Articulos*/
+.event-movi{
+  padding-top: 2% !important;
+  max-width: 100% !important;
+}
+.notas-padding{
+  padding: 0px !important;
+}
 .tituloChueco span {
     font-size: 14px;
 }
@@ -4202,14 +4209,25 @@ nav {
 
 @media only screen and (max-width: 600px) and (min-width: 200px) {
 /*form*/
-  .bajar{
+ /* .bajar{
     margin-top:-72px;
-  }
+  }*/
 
-  .suscribe {
+/*.suscribe {
     background: url(images/carro.jpg) center top no-repeat;
     background-size: 100%;
     padding: 100px 0px 30px;
+}*/
+
+.bajar {
+    margin-top: 30px;
+}
+.suscribe {
+    background: url(images/carro.jpg) center right no-repeat;
+    height: 308px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px !important;
 }
 /*fin*/
 	.titulo1 {
