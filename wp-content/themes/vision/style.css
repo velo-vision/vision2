@@ -3059,6 +3059,15 @@ nav .brand-logo {
 
 @media only screen and (max-width: 600px) and (min-width: 200px){
 /*Articulos*/
+.sinpadd{
+  padding:0px !important;
+}
+.tituloChueco2 {
+  max-width: 100%;
+}
+.padding-revista{
+  padding: 0px !important;
+}
 .event-movi{
   padding-top: 2% !important;
   max-width: 100% !important;

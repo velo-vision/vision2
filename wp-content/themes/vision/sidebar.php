@@ -1,6 +1,6 @@
 <div class="sidebar">
 
-  <div class="col l12 m12 s12" style="margin-top:-55px;">
+  <div class="col l12 m12 s12 padding-revista" style="margin-top:-55px;">
     <a href="<?php echo get_category_link(19); ?>"><p class="tituloChueco2" style="margin-bottom:15px;"><span>Revista Digital</span></p></a>
     <?php
 
@@ -25,10 +25,10 @@
 
   <div class="col l12 m12 s12 " style="margin-top:50px;">
     <p class="tituloChueco2" style="margin-bottom:15px;"><span>Patrocinadores</span></p>
-    <div class="col l12 m6 s12">
+    <div class="col l12 m6 s12 sinpadd">
       <img src="http://placehold.it/350x350" alt="" style="margin-bottom:15px;">
     </div>
-    <div class="col l12 m6 s12">
+    <div class="col l12 m6 s12 sinpadd">
       <img src="http://placehold.it/350x350" alt="" style="margin-bottom:15px;">
     </div>
   </div>
