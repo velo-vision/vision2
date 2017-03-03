@@ -252,13 +252,13 @@ nav .brand-logo {
 
 .sociales {
   position: relative;
-  margin-top: -35px;
+  margin-top: -29px;
   text-align: right;
   margin-right: 30px;
 }
 
 .sociales a{
-  font-size: 1.2em;
+  font-size: 1.6em;
   color: #fff;
   position: relative;
   margin-right: 15px;
@@ -316,7 +316,7 @@ margin-top:5%;
 
 a {
   color: rgba(#fff, .5);
-  text-transform: uppercase;
+  text-transform: none;
   text-decoration: none;
   background: rgba(#000, .8);
   border: 1px solid rgba(#fff, .5);
@@ -463,6 +463,10 @@ ul {
 
 /*FIN VIDEO*/
 
+/*****/
+.padding-span .bx-caption{
+  padding: 0 45px !important;
+}
 /*FIN MENU RESPONSIVE*/
 .borde-gris{
   background:#b9b1b1;
@@ -864,6 +868,54 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
   -o-transform:skew(20deg);
 }
 
+.tituloChueco1{
+  background:#cc2128;
+  color: white;
+  display:block;
+  font-size: 20px;
+  font-weight: bold;
+  margin:0 auto;
+	margin-top: -30px;
+  max-width: 80%;
+  padding: 15px;
+  text-align: center;
+  z-index: 1;
+  -webkit-transform:skew(-20deg);
+  -moz-transform:skew(-20deg);
+  -o-transform:skew(-20deg);
+}
+.tituloChueco1 span{
+  display: block;
+  -webkit-transform:skew(20deg);
+  -moz-transform:skew(20deg);
+  -o-transform:skew(20deg);
+  font-size: 13px;
+}
+
+.tituloChueco2{
+  background:#cc2128;
+  color: white;
+  display:block;
+  font-size: 20px;
+  font-weight: bold;
+  margin:0 auto;
+	margin-top: -30px;
+  max-width: 80%;
+  padding: 15px;
+  text-align: center;
+  z-index: 1;
+  -webkit-transform:skew(-20deg);
+  -moz-transform:skew(-20deg);
+  -o-transform:skew(-20deg);
+}
+.tituloChueco2 span{
+  display: block;
+  -webkit-transform:skew(20deg);
+  -moz-transform:skew(20deg);
+  -o-transform:skew(20deg);
+  font-size: 14px;
+}
+
 .text-dodge{
 	color: #56585a;
 	text-align: justify;
@@ -1135,6 +1187,20 @@ nav {
 	font-size:18px;
 	text-align: center;
 	margin: 12px 0 0 0;
+	padding: 0px 0px;
+	text-transform: uppercase;
+  -webkit-transform:skew(16deg);
+	-moz-transform:skew(16deg);
+	-o-transform:skew(16deg);
+}
+
+.titulo2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size:16px;
+	text-align: center;
+	margin: 23px 0 0 0;
 	padding: 0px 0px;
 	text-transform: uppercase;
   -webkit-transform:skew(16deg);
@@ -2127,6 +2193,8 @@ input[type=email], textarea.materialize-textarea {
 }
 /*Fin footer*/
 
+
+
 @media only screen and (max-width: 1600px) and (min-width: 1100px){
 .manejo {
   font-size: .8em;
@@ -2136,10 +2204,28 @@ input[type=email], textarea.materialize-textarea {
 .descarga {
   font-size: .8em;
 }
+/*noticias que te pueden interesar*/
+.titulo2{
+	font-size:16px;
+	margin: 12px 0 0 0;
+}
+/*fin*/
+}
 
+@media only screen and (max-width: 1350px) and (min-width: 1100px){
+  .suscribe {
+      background: url(images/carro.jpg) center top no-repeat;
+      background-size: 100%;
+      padding: 100px 0px 410px !important;
+  }
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 992px){
+.search-container {
+    margin-right: 40%;
+    margin-top: 14.4%;
+}
+  
 .tecnologia {
   font-size: .7em;
   margin: 10px 0 0 0;
@@ -2157,6 +2243,17 @@ input[type=email], textarea.materialize-textarea {
 }
 
 @media only screen and (max-width: 1100px) and (min-width: 992px){
+  .suscribe {
+    background: url(images/carro.jpg) center top no-repeat;
+    background-size: 100%;
+    padding: 100px 0px 240px !important;
+}
+/*noticias que te pueden interesar*/
+.titulo2{
+	font-size:16px;
+	margin: 12px 0 0 0;
+}
+/*fin*/
 .manejo {
   font-size: .8em;
   margin: 8px 0 0 0;
@@ -2264,6 +2361,17 @@ input[type=email], textarea.materialize-textarea {
 }
 
 @media only screen and (max-width: 992px) and (min-width: 768px){
+  .suscribe {
+    background: url(images/carro.jpg) center top no-repeat;
+    background-size: 100%;
+    padding: 46px 0px 345px !important;
+}
+  /*noticias que te pueden interesar*/
+  .titulo2{
+  	font-size:16px;
+  	margin: 12px 0 0 0;
+  }
+  /*fin*/
 
 .footer-imagen{
   width:45%;
@@ -2361,9 +2469,9 @@ nav ul a:hover {
   display: none;
 }
 
-.imagen-3{
+/*.imagen-3{
   display: none;
-}
+}*/
 
 .margin-noticias{
   margin-top: 50px;
@@ -2564,6 +2672,18 @@ nav ul a:hover {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 600px){
+
+.suscribe {
+    background: url(images/carro.jpg) center top no-repeat;
+    background-size: 100%;
+    padding: 45px 0px 230px !important;
+}
+
+  .titulo2 {
+      font-size: 13px;
+      margin: 19px 0 0 0;
+  }
+
 nav a {
   color: #000 !important;
 }
@@ -2885,7 +3005,38 @@ nav .brand-logo {
 }
 
 @media only screen and (max-width: 600px) and (min-width: 200px){
+/*Articulos*/
+.tituloChueco span {
+    font-size: 14px;
+}
+
+.descripcionNota, .single p {
+    color: #6a6a6a;
+    font-size: 14px !important;
+    padding: 10px 20px;
+}
+
+.redes .mas {
+    color: #cc2128;
+    float: right;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.redes .social {
+    float: left;
+    margin-right: 10px;
+    width: 25px !important;
+}
+/*fin*/
+/*noticias que te pueden interesar*/
+  .titulo2 {
+    font-size: 12px;
+    margin: 19px 0 0 0;
+}
+/*fin*/
   /***est**/
+
 .separacion-slider{
   margin: 2% 0 !important;
 }
@@ -3972,8 +4123,8 @@ nav a {
 
 nav {
 	margin-bottom: 0 !important;
-	margin-left: 1%;
-	width: 98% !important;
+	margin-left: .7%;
+	width: 100% !important;
 }
 
 .encabezado-menu {
@@ -4009,7 +4160,7 @@ nav {
 }
 .search-container {
     margin-right: 40%;
-    margin-top: 8.4%;
+    margin-top: 10.4%;
 }
 
 
@@ -4050,11 +4201,19 @@ nav {
 }
 
 @media only screen and (max-width: 600px) and (min-width: 200px) {
+/*form*/
+  .bajar{
+    margin-top:-72px;
+  }
 
+  .suscribe {
+    background: url(images/carro.jpg) center top no-repeat;
+    background-size: 100%;
+    padding: 100px 0px 30px;
+}
+/*fin*/
 	.titulo1 {
     font-size: 14px;
- 
-
 }
 
 ul.essb_links_list {
@@ -4067,4 +4226,17 @@ ul.essb_links_list {
 
 div#essb_displayed_shortcode_354556961 {
     text-align: center;
+}
+
+
+}
+
+
+@media (max-width: 68em) {
+
+.sociales {
+display: none;
+}
+
+
 }

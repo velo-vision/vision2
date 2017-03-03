@@ -5,25 +5,24 @@
 <div class="row marco nomargin">
 
   <div class="col l12 m12 s12 nopadding bg_main_slider">
-    <div class="col l8 m8 s12 sinpadding nomargin separacion-slider">
+    <div class="col l8 m8 s12 sinpadding nomargin separacion-slider flechas-carrusel">
       <ul class="carruselPrincipal">
       <?php
         $args = array(
           'numberposts' => 5,
           'category' => 27
         );
-
         $lanzamientos = get_posts( $args );
-
         foreach ($lanzamientos as $key => $value) {
           # code...
           ?>
-          <li>
-            <a href="<?php echo get_the_permalink($value->ID); ?>"><img src="<?php echo fly_get_attachment_image_src( get_post_thumbnail_id($value->ID), array( 995, 590 ), true)['src']; ?>" alt="" title="<?php echo $value->post_title; ?>"></a>
+          <li class="padding-span">
+            <a href="<?php echo get_the_permalink($value->ID); ?>">
+              <img src="<?php echo fly_get_attachment_image_src( get_post_thumbnail_id($value->ID), array( 995, 590 ), true)['src']; ?>" alt="" title="<?php echo $value->post_title; ?>">
+            </a>
           </li>
           <?php
         }
-
       ?>
 
       </ul>
@@ -35,14 +34,13 @@
           'category' => 28
         );
         $lanzamientos = get_posts( $args );
-
         foreach ($lanzamientos as $key => $value) {
           # code...
           ?>
             <a href="<?php echo get_the_permalink($value->ID); ?>">
               <div class="derechaPrincipal">
                 <img src="<?php echo fly_get_attachment_image_src( get_post_thumbnail_id($value->ID), array( 995, 590 ), true)['src']; ?>" alt="" title="<?php echo $value->post_title; ?>" width="100%">
-                <div class="caption">
+                <div class="caption ">
                   <span><?php echo $value->post_title; ?> </span>
                 </div>
               </div>
@@ -88,7 +86,7 @@
   </div>
 
 
-  <!-- <div class="col l12 m12 s12 margin-30"> -->
+  <div class="col l12 m12 s12 nomargin nopadding flechlanzamientos">
   <div class="lanzamientos">
 
     <?php
@@ -96,7 +94,6 @@
         'numberposts' => 10,
         'category' => 12
       );
-
       $lanzamientos = get_posts( $args );
       if ( $lanzamientos ) {
           foreach ( $lanzamientos as $post ){
@@ -113,7 +110,7 @@
                   </a>
 
                   <a href="<?php echo get_permalink($post->ID); ?>">
-                    <div class="tituloChueco">
+                    <div class="tituloChueco1">
                       <span><?php echo $post->post_title; ?></span>
                     </div>
                   </a>
@@ -138,6 +135,7 @@
     ?>
 
   </div>
+  </div>
 
   <script type="text/javascript">
     var lanzamientos;
@@ -152,7 +150,6 @@
           pager: false,
           responsive: true,
           moveSlides: 1,
-
         });
       });
     });
@@ -216,7 +213,6 @@
           'numberposts' => 10,
           'category' => 20
         );
-
         $lanzamientos = get_posts( $args );
         if ( $lanzamientos ) {
             foreach ( $lanzamientos as $post ){
@@ -267,7 +263,7 @@
                       }
                     ?>
                     <div class="redes">
-                      <?php echo do_shortcode('[easy-social-share buttons="facebook,twitter,google,mail,whatsapp,gmail,skype" counters=0 style="button" point_type="simple"]'); ?>
+                      <?php echo do_shortcode('[easy-social-share buttons="facebook,twitter,google" counters=0 style="button" point_type="simple"]'); ?>
                       <a href="<?php echo get_the_permalink($post->ID); ?>" class="mas">Leer más »</a>
                     </div>
                   </p>
@@ -290,21 +286,21 @@
 
 
 <div class="suscribe row">
-  <div class="col l12 m12 s12">
+  <div class="col l12 m12 s12 bajar">
     <div class="col l12 m12 s12 ">
       <p class="new nomargin">Suscríbete a nuestro newsletter</p>
       <p class="recibe nomargin">Recibe nuestra newsletter con la información más relevante de la industria automotriz.</p>
     </div>
     <div class="col l8 offset-l2 m8 offset-m2 s12 margin-form">
       <form action="index.html" method="post">
-        <div class="col l4 m4 s6">
-          <input style="height:50px;" type="text" name="nombre" class="form" placeholder="Escribe Nombre">
+        <div class="col l4 m4 s8 offset-s2">
+          <input class="tamaño1" type="text" name="nombre" class="form" placeholder="Escribe Nombre">
         </div>
-        <div class="col l4 m4 s6">
-          <input style="height:50px;" type="text" name="nombre" placeholder="Escribe Correo">
+        <div class="col l4 m4 s8 offset-s2">
+          <input class="tamaño1" type="text" name="nombre" placeholder="Escribe Correo">
         </div>
         <div class="col l4 m4 s6 offset-s3 center">
-          <input style="height:50px; font-size: 20px;" type="submit" class="btn-text boton-enviar" value="Enviar">
+          <input style="font-size: 20px;" type="submit" class="btn-text boton-enviar" value="Enviar">
         </div>
       </form>
     </div>
@@ -330,9 +326,7 @@
         'numberposts' => 6,
         'category' => 23
       );
-
       $lanzamientos = get_posts( $args );
-
       foreach ($lanzamientos as $key => $value) {
         # code...
         $src = wp_get_attachment_image_src( get_post_thumbnail_id($value->ID), 'full' );//setoma la imagen con thumbnail_id
@@ -396,44 +390,42 @@
       <div class="col l12 m12 s12 nopadding">
           <!-- MENU IMAGENES -->
         <div class="col l3 m12 s12 top5">
-        <?php $videos2 = get_field("video", 174);  ?> 
+        <?php $videos2 = get_field("video", 174);  ?>
           <nav class="sample-ctrl">
-          <?php $count =1; 
+          <?php $count =1;
               foreach ($videos2 as $key => $value){ ?>
-                <div class="col l8 offset-l2 m3 s3">               
+                <div class="col l8 offset-l2 m3 s3">
                   <a data-ctrl="<?php echo $count ?>" href="#<?php $count ?>">
                     <img src="https://img.youtube.com/vi/<?php echo $value['url_video'] ?>/0.jpg" alt="" width="100%" class="foto-video">
                     <p class="text-lorem hide-on-small-only"><?php echo $value['comentario'] ?></p>
                   </a>
                 </div>
-            <?php $count++; 
-                }             
+            <?php $count++;
+                }
                 ?>
           </nav>
         </div>
         <!-- FIN MENU IMAGENES -->
         <!-- VIDEOS IFRAME -->
         <div class="col l7 m10 offset-m1 s12 nopadding">
-          <?php $videos2 = get_field("video", 174);  ?> 
+          <?php $videos2 = get_field("video", 174);  ?>
             <ul class="scanlines">
-            <?php $count =1; 
+            <?php $count =1;
                 foreach ($videos2 as $key => $value){ ?>
                   <li id="<?php echo $count; ?>">
-                    <iframe id="<?php echo $count; ?>" src= "https://www.youtube.com/embed/<?php echo $value['url_video'] ?>" class="video-size" allowfullscreen></iframe>                  
+                    <iframe id="<?php echo $count; ?>" src= "https://www.youtube.com/embed/<?php echo $value['url_video'] ?>" class="video-size" allowfullscreen></iframe>
                   </li>
               <?php $count ++;
-                  }                  
+                  }
               ?>
           </ul>
         </div>
         <!-- FIN VIDEOS IFRAME -->
-        
+
       </div>
   </div>
 
 </div>
 </div>
-
-
 
 <?php get_footer(); ?>

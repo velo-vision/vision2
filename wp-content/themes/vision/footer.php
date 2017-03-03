@@ -72,6 +72,9 @@
   </footer>
 </div>
 
+<script charset="utf-8" type="text/javascript">var switchTo5x=true;</script>
+<script charset="utf-8" type="text/javascript" id="st_insights_js" src="http://w.sharethis.com/button/buttons.js?publisher=2ad823c6-8596-459b-99b4-9bd00e81ebb9&product=sharethis-wordpress"></script>
+<script charset="utf-8" type="text/javascript">stLight.options({"publisher":"2ad823c6-8596-459b-99b4-9bd00e81ebb9"});var st_type="wordpress4.7.2";</script>
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
