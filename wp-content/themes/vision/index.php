@@ -5,7 +5,7 @@
 <div class="row marco nomargin">
 
   <div class="col l12 m12 s12 nopadding bg_main_slider">
-    <div class="col l8 m8 s12 sinpadding nomargin separacion-slider">
+    <div class="col l8 m8 s12 sinpadding nomargin separacion-slider flechas-carrusel">
       <ul class="carruselPrincipal">
       <?php
         $args = array(
@@ -16,8 +16,10 @@
         foreach ($lanzamientos as $key => $value) {
           # code...
           ?>
-          <li>
-            <a href="<?php echo get_the_permalink($value->ID); ?>"><img src="<?php echo fly_get_attachment_image_src( get_post_thumbnail_id($value->ID), array( 995, 590 ), true)['src']; ?>" alt="" title="<?php echo $value->post_title; ?>"></a>
+          <li class="padding-span">
+            <a href="<?php echo get_the_permalink($value->ID); ?>">
+              <img src="<?php echo fly_get_attachment_image_src( get_post_thumbnail_id($value->ID), array( 995, 590 ), true)['src']; ?>" alt="" title="<?php echo $value->post_title; ?>">
+            </a>
           </li>
           <?php
         }
@@ -38,7 +40,7 @@
             <a href="<?php echo get_the_permalink($value->ID); ?>">
               <div class="derechaPrincipal">
                 <img src="<?php echo fly_get_attachment_image_src( get_post_thumbnail_id($value->ID), array( 995, 590 ), true)['src']; ?>" alt="" title="<?php echo $value->post_title; ?>" width="100%">
-                <div class="caption">
+                <div class="caption ">
                   <span><?php echo $value->post_title; ?> </span>
                 </div>
               </div>
@@ -84,7 +86,7 @@
   </div>
 
 
-  <!-- <div class="col l12 m12 s12 margin-30"> -->
+  <div class="col l12 m12 s12 nomargin nopadding flechlanzamientos">
   <div class="lanzamientos">
 
     <?php
@@ -132,6 +134,7 @@
       }
     ?>
 
+  </div>
   </div>
 
   <script type="text/javascript">

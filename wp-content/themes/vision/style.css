@@ -252,13 +252,13 @@ nav .brand-logo {
 
 .sociales {
   position: relative;
-  margin-top: -35px;
+  margin-top: -29px;
   text-align: right;
   margin-right: 30px;
 }
 
 .sociales a{
-  font-size: 1.2em;
+  font-size: 1.6em;
   color: #fff;
   position: relative;
   margin-right: 15px;
@@ -316,7 +316,7 @@ margin-top:5%;
 
 a {
   color: rgba(#fff, .5);
-  text-transform: uppercase;
+  text-transform: none;
   text-decoration: none;
   background: rgba(#000, .8);
   border: 1px solid rgba(#fff, .5);
@@ -463,6 +463,10 @@ ul {
 
 /*FIN VIDEO*/
 
+/*****/
+.padding-span .bx-caption{
+  padding: 0 45px !important;
+}
 /*FIN MENU RESPONSIVE*/
 .borde-gris{
   background:#b9b1b1;
@@ -2953,6 +2957,7 @@ nav .brand-logo {
 }
 /*fin*/
   /***est**/
+
 .separacion-slider{
   margin: 2% 0 !important;
 }
@@ -4039,7 +4044,7 @@ nav a {
 
 nav {
 	margin-bottom: 0 !important;
-	margin-left: 1%;
+	margin-left: .7%;
 	width: 98% !important;
 }
 
@@ -4076,7 +4081,7 @@ nav {
 }
 .search-container {
     margin-right: 40%;
-    margin-top: 8.4%;
+    margin-top: 10.4%;
 }
 
 
@@ -4134,4 +4139,17 @@ ul.essb_links_list {
 
 div#essb_displayed_shortcode_354556961 {
     text-align: center;
+}
+
+
+}
+
+
+@media (max-width: 68em) {
+
+.sociales {
+display: none;
+}
+
+
 }
