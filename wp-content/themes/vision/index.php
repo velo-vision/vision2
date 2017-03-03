@@ -263,7 +263,7 @@
                       }
                     ?>
                     <div class="redes">
-                      <?php echo do_shortcode('[easy-social-share buttons="facebook,twitter,google,mail,whatsapp,gmail,skype" counters=0 style="button" point_type="simple"]'); ?>
+                      <?php echo do_shortcode('[easy-social-share buttons="facebook,twitter,google" counters=0 style="button" point_type="simple"]'); ?>
                       <a href="<?php echo get_the_permalink($post->ID); ?>" class="mas">Leer más »</a>
                     </div>
                   </p>
