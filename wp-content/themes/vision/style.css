@@ -2223,9 +2223,8 @@ input[type=email], textarea.materialize-textarea {
 @media only screen and (max-width: 1200px) and (min-width: 992px){
 .search-container {
     margin-right: 40%;
-    margin-top: 14.4%;
 }
-  
+
 .tecnologia {
   font-size: .7em;
   margin: 10px 0 0 0;
@@ -2361,6 +2360,33 @@ input[type=email], textarea.materialize-textarea {
 }
 
 @media only screen and (max-width: 992px) and (min-width: 768px){
+  /*menu*/
+  .side-nav a:hover {
+     background-color: transparent;
+     font-weight: bold !important;
+  }
+
+  .side-nav a {
+      font-weight: 400;
+  }
+
+  nav ul li {
+    padding: 0 20px;
+    background: #fff;
+    border-bottom: 1px solid #e6e3e3;
+    -webkit-transform: skew(-0deg);
+    -moz-transform: skew(-0deg);
+    -o-transform: skew(-0deg);
+  }
+
+  nav ul li:hover, nav ul .active {
+    background: #fff;
+    border-bottom: 1px solid #e6e3e3;
+    -webkit-transform: skew(-0deg) !important;
+    -moz-transform: skew(-0deg) !important;
+    -o-transform: skew(-0deg) !important;
+}
+/*fin*/
   .suscribe {
     background: url(images/carro.jpg) center top no-repeat;
     background-size: 100%;
@@ -2672,6 +2698,33 @@ nav ul a:hover {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 600px){
+  /*menu*/
+  .side-nav a:hover {
+     background-color: transparent;
+     font-weight: bold !important;
+  }
+
+  .side-nav a {
+      font-weight: 400;
+  }
+
+  nav ul li {
+    padding: 0 20px;
+    background: #fff;
+    border-bottom: 1px solid #e6e3e3;
+    -webkit-transform: skew(-0deg);
+    -moz-transform: skew(-0deg);
+    -o-transform: skew(-0deg);
+  }
+
+  nav ul li:hover, nav ul .active {
+    background: #fff;
+    border-bottom: 1px solid #e6e3e3;
+    -webkit-transform: skew(-0deg) !important;
+    -moz-transform: skew(-0deg) !important;
+    -o-transform: skew(-0deg) !important;
+}
+/*fin*/
 
 .suscribe {
     background: url(images/carro.jpg) center top no-repeat;
@@ -3274,13 +3327,6 @@ nav .brand-logo {
   height: 30px;
 }
 
-nav ul a:hover {
-  background-image: url(images/extras/rombo-linea3.png);
-  background-color: rgba(187, 45, 45, 0) !important;
-  -webkit-transform: skew(-20deg);
-  -moz-transform: skew(-20deg);
-  -o-transform: skew(-20deg);
-}
 /*fin home*/
 
 /*MAS*/
@@ -4160,7 +4206,6 @@ nav {
 }
 .search-container {
     margin-right: 40%;
-    margin-top: 10.4%;
 }
 
 
@@ -4201,6 +4246,34 @@ nav {
 }
 
 @media only screen and (max-width: 600px) and (min-width: 200px) {
+  /*menu*/
+  .side-nav a:hover {
+     background-color: transparent;
+     font-weight: bold !important;
+  }
+
+  .side-nav a {
+      font-weight: 400;
+  }
+
+  nav ul li {
+    padding: 0 20px;
+    background: #fff;
+    border-bottom: 1px solid #e6e3e3;
+    -webkit-transform: skew(-0deg);
+    -moz-transform: skew(-0deg);
+    -o-transform: skew(-0deg);
+  }
+
+  nav ul li:hover, nav ul .active {
+    background: #fff;
+    border-bottom: 1px solid #e6e3e3;
+    -webkit-transform: skew(-0deg) !important;
+    -moz-transform: skew(-0deg) !important;
+    -o-transform: skew(-0deg) !important;
+}
+/*fin*/
+
 /*form*/
   .bajar{
     margin-top:-72px;

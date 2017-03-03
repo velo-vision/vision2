@@ -68,7 +68,7 @@
           <div class="col l12 m12 s12 sociales nopadding hide-on-small-only">
             <a href="https://www.facebook.com/visionautomotrizweb/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href="https://twitter.com/visionauto"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.youtube.com/user/visionautomotriz"><i class="fa fa-youtube" aria-hidden="true"></i></a>           
+            <a href="https://www.youtube.com/user/visionautomotriz"><i class="fa fa-youtube" aria-hidden="true"></i></a>
           </div>
        </div>
     </div>
