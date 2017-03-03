@@ -888,6 +888,30 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
   font-size: 13px;
 }
 
+.tituloChueco2{
+  background:#cc2128;
+  color: white;
+  display:block;
+  font-size: 20px;
+  font-weight: bold;
+  margin:0 auto;
+	margin-top: -30px;
+  max-width: 80%;
+  padding: 15px;
+  text-align: center;
+  z-index: 1;
+  -webkit-transform:skew(-20deg);
+  -moz-transform:skew(-20deg);
+  -o-transform:skew(-20deg);
+}
+.tituloChueco2 span{
+  display: block;
+  -webkit-transform:skew(20deg);
+  -moz-transform:skew(20deg);
+  -o-transform:skew(20deg);
+  font-size: 14px;
+}
+
 .text-dodge{
 	color: #56585a;
 	text-align: justify;
@@ -2182,6 +2206,14 @@ input[type=email], textarea.materialize-textarea {
 /*fin*/
 }
 
+@media only screen and (max-width: 1350px) and (min-width: 1100px){
+  .suscribe {
+      background: url(images/carro.jpg) center top no-repeat;
+      background-size: 100%;
+      padding: 100px 0px 410px !important;
+  }
+}
+
 @media only screen and (max-width: 1200px) and (min-width: 992px){
 .tecnologia {
   font-size: .7em;
@@ -2200,6 +2232,11 @@ input[type=email], textarea.materialize-textarea {
 }
 
 @media only screen and (max-width: 1100px) and (min-width: 992px){
+  .suscribe {
+    background: url(images/carro.jpg) center top no-repeat;
+    background-size: 100%;
+    padding: 100px 0px 240px !important;
+}
 /*noticias que te pueden interesar*/
 .titulo2{
 	font-size:16px;
@@ -2313,7 +2350,11 @@ input[type=email], textarea.materialize-textarea {
 }
 
 @media only screen and (max-width: 992px) and (min-width: 768px){
-
+  .suscribe {
+    background: url(images/carro.jpg) center top no-repeat;
+    background-size: 100%;
+    padding: 46px 0px 345px !important;
+}
   /*noticias que te pueden interesar*/
   .titulo2{
   	font-size:16px;
@@ -2417,9 +2458,9 @@ nav ul a:hover {
   display: none;
 }
 
-.imagen-3{
+/*.imagen-3{
   display: none;
-}
+}*/
 
 .margin-noticias{
   margin-top: 50px;
@@ -2620,6 +2661,13 @@ nav ul a:hover {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 600px){
+
+.suscribe {
+    background: url(images/carro.jpg) center top no-repeat;
+    background-size: 100%;
+    padding: 45px 0px 230px !important;
+}
+
   .titulo2 {
       font-size: 13px;
       margin: 19px 0 0 0;
@@ -2946,6 +2994,30 @@ nav .brand-logo {
 }
 
 @media only screen and (max-width: 600px) and (min-width: 200px){
+/*Articulos*/
+.tituloChueco span {
+    font-size: 14px;
+}
+
+.descripcionNota, .single p {
+    color: #6a6a6a;
+    font-size: 14px !important;
+    padding: 10px 20px;
+}
+
+.redes .mas {
+    color: #cc2128;
+    float: right;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.redes .social {
+    float: left;
+    margin-right: 10px;
+    width: 25px !important;
+}
+/*fin*/
 /*noticias que te pueden interesar*/
   .titulo2 {
     font-size: 12px;
@@ -4117,11 +4189,19 @@ nav {
 }
 
 @media only screen and (max-width: 600px) and (min-width: 200px) {
+/*form*/
+  .bajar{
+    margin-top:-72px;
+  }
 
+  .suscribe {
+    background: url(images/carro.jpg) center top no-repeat;
+    background-size: 100%;
+    padding: 100px 0px 30px;
+}
+/*fin*/
 	.titulo1 {
     font-size: 14px;
-
-
 }
 
 ul.essb_links_list {

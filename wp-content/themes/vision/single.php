@@ -54,8 +54,8 @@
 													<?php echo codeExtracto($value, 30); ?>
 
 													<div class="redes">
-														<img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-64.png" class="social">
-														<img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-twitter-128.png" class="social">
+														<span class='st_facebook_large' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>'></span>
+	                          <span st_via='https://twitter.com/visionauto?lang=es' st_username='vision' class='st_twitter_large' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>'></span>
 														<a href="<?php echo get_the_permalink($value->ID); ?>" class="mas">Leer más »</a>
 														<div style="clear:both;"></div>
 													</div>
@@ -163,8 +163,8 @@
 					                <?php echo codeExtracto($value, 30); ?>
 
 					                <div class="redes">
-					                  <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-64.png" class="social">
-					                  <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-twitter-128.png" class="social">
+														<span class='st_facebook_large' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>'></span>
+	                          <span st_via='https://twitter.com/visionauto?lang=es' st_username='vision' class='st_twitter_large' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>'></span>
 					                  <a href="<?php echo get_the_permalink($value->ID); ?>" class="mas">Leer más »</a>
 					                  <div style="clear:both;"></div>
 					                </div>

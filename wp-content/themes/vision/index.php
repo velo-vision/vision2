@@ -283,21 +283,21 @@
 
 
 <div class="suscribe row">
-  <div class="col l12 m12 s12">
+  <div class="col l12 m12 s12 bajar">
     <div class="col l12 m12 s12 ">
       <p class="new nomargin">Suscríbete a nuestro newsletter</p>
       <p class="recibe nomargin">Recibe nuestra newsletter con la información más relevante de la industria automotriz.</p>
     </div>
     <div class="col l8 offset-l2 m8 offset-m2 s12 margin-form">
       <form action="index.html" method="post">
-        <div class="col l4 m4 s6">
-          <input style="height:50px;" type="text" name="nombre" class="form" placeholder="Escribe Nombre">
+        <div class="col l4 m4 s8 offset-s2">
+          <input class="tamaño1" type="text" name="nombre" class="form" placeholder="Escribe Nombre">
         </div>
-        <div class="col l4 m4 s6">
-          <input style="height:50px;" type="text" name="nombre" placeholder="Escribe Correo">
+        <div class="col l4 m4 s8 offset-s2">
+          <input class="tamaño1" type="text" name="nombre" placeholder="Escribe Correo">
         </div>
         <div class="col l4 m4 s6 offset-s3 center">
-          <input style="height:50px; font-size: 20px;" type="submit" class="btn-text boton-enviar" value="Enviar">
+          <input style="font-size: 20px;" type="submit" class="btn-text boton-enviar" value="Enviar">
         </div>
       </form>
     </div>

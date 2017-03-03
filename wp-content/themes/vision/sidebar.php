@@ -1,7 +1,7 @@
 <div class="sidebar">
 
   <div class="col l12 m12 s12" style="margin-top:-55px;">
-    <a href="<?php echo get_category_link(19); ?>"><p class="tituloChueco" style="margin-bottom:15px;"><span>Revista Digital</span></p></a>
+    <a href="<?php echo get_category_link(19); ?>"><p class="tituloChueco2" style="margin-bottom:15px;"><span>Revista Digital</span></p></a>
     <?php
 
 
@@ -19,18 +19,22 @@
     </a>
   </div>
 
-  <div class="col l12 m12 s12 margin-imagen bottom-imagen">
+  <div class="col l12 m12 s12 margin-imagen bottom-imagen hide-on-med-only hide-on-small-only">
     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvisionautomotrizweb%2F&tabs=timeline&width=273&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=123763174339398" width="273px" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-
   </div>
+
   <div class="col l12 m12 s12 " style="margin-top:50px;">
-    <p class="tituloChueco" style="margin-bottom:15px;"><span>Patrocinadores</span></p>
-    <img src="http://placehold.it/350x350" alt="" style="margin-bottom:15px;">
-    <img src="http://placehold.it/350x350" alt="" style="margin-bottom:15px;">
+    <p class="tituloChueco2" style="margin-bottom:15px;"><span>Patrocinadores</span></p>
+    <div class="col l12 m6 s12">
+      <img src="http://placehold.it/350x350" alt="" style="margin-bottom:15px;">
+    </div>
+    <div class="col l12 m6 s12">
+      <img src="http://placehold.it/350x350" alt="" style="margin-bottom:15px;">
+    </div>
   </div>
 
   <div class="col l12 m12 s12" style="margin-top:50px;">
-    <a href="<?php echo get_category_link(21); ?>"><p class="tituloChueco" style="margin-bottom:15px;"><span>Prueba de manejo</span></p></a>
+    <a href="<?php echo get_category_link(21); ?>"><p class="tituloChueco2" style="margin-bottom:15px;"><span>Prueba de manejo</span></p></a>
     <?php
       $args = array(
         'numberposts' => 1,
@@ -42,7 +46,7 @@
       $url = $src[0];
     ?>
     <a href="<?php echo get_the_permalink($post->ID); ?>">
-      <div class="nota" style="margin-bottom:0px;">
+      <div class="col l12 m6 offset-m3 s12 nota" style="margin-bottom:0px;">
         <img src="<?php echo fly_get_attachment_image_src( get_post_thumbnail_id($lanzamientos[0]->ID), array( 330, 330 ), true)['src']; ?>" alt="" width="100%">
         <p class="descripcionNota">
           <strong><?php echo $lanzamientos[0]->post_title; ?></strong><br>
@@ -59,8 +63,8 @@
     </a>
   </div>
 
-  <div class="col l12 m12 s12" style="margin-top:60px;">
-    <a href="<?php echo get_category_link(22); ?>"><p class="tituloChueco" style="margin-bottom:15px;"><span>Julio Brito en la crónica</span></p></a>
+  <div class="col l12 m6 offset-m3 s12" style="margin-top:60px;">
+    <a href="<?php echo get_category_link(22); ?>"><p class="tituloChueco2" style="margin-bottom:15px;"><span>Julio Brito en la crónica</span></p></a>
     <?php
       $args = array(
         'numberposts' => 1,
@@ -70,14 +74,20 @@
       $lanzamientos = get_posts( $args );
     ?>
     <a href="<?php echo get_the_permalink($lanzamientos[0]->ID); ?>">
-      <img src="<?php bloginfo("template_url"); ?>/images/13.jpg" alt="" class="imagen-3">
+      <div class="col l12 m10 offset-m1 s12">
+        <img src="<?php bloginfo("template_url"); ?>/images/13.jpg" alt="" class="imagen-3">
+      </div>
     </a>
   </div>
 
 
   <div class="col l12 m12 s12" style="margin-top:60px;">
-    <p class="tituloChueco" style="margin-bottom:15px;"><span>Patrocinadores</span></p>
-    <img src="http://placehold.it/350x350" alt="" style="margin-bottom:15px;">
-    <img src="http://placehold.it/350x350" alt="" style="margin-bottom:15px;">
+    <p class="tituloChueco2" style="margin-bottom:15px;"><span>Patrocinadores</span></p>
+    <div class="col l12 m6 s12">
+      <img src="http://placehold.it/350x350" alt="" style="margin-bottom:15px;">
+    </div>
+    <div class="col l12 m6 s12">
+      <img src="http://placehold.it/350x350" alt="" style="margin-bottom:15px;">
+    </div>
   </div>
 </div>
