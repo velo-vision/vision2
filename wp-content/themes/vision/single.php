@@ -88,7 +88,11 @@
 					</h1>
 					<img src="<?php echo fly_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), array( 1100, 690 ), true)['src']; ?>" alt="" width="100%">
 
-					<?php echo do_shortcode('[easy-social-share buttons="facebook,twitter,google,mail,whatsapp,gmail,skype" counters=0 style="button" point_type="simple"]'); ?>
+					<?php 
+$url = get_permalink($post->ID);
+$title = get_the_title($post->ID);
+echo do_shortcode('[easy-social-share-popup buttons="facebook,twitter,mail,whatsapp,gmail,skype" counters=0 style="button" url="'.$url.'" text="'.$title.'"]'); 
+?>
 					<div class="post" id="post-<?php the_ID(); ?>">
 						<!-- <p><?php the_time('F jS, Y') ?> <?php the_author() ?> Posted in <?php the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p> -->
 

@@ -66,10 +66,9 @@
        <div class="col s12 m12 l12">
           <img src="<?php bloginfo("template_url"); ?>/images/menu/mg1.png" class="encabezado-menu">
           <div class="col l12 m12 s12 sociales nopadding hide-on-small-only">
-            <a href="https://www.facebook.com/visionautomotrizweb/"><i style="font-size: 25px;" class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/visionauto"><i style="font-size: 25px;" class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.youtube.com/user/visionautomotriz"><i style="font-size: 25px;" class="fa fa-youtube" aria-hidden="true"></i></a>
-            <a href="https://plus.google.com/u/0/?partnerid=gplp0"><i style="font-size: 25px;" class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/visionautomotrizweb/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/visionauto"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/user/visionautomotriz"><i class="fa fa-youtube" aria-hidden="true"></i></a>           
           </div>
        </div>
     </div>
